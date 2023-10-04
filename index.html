@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: linear-gradient(to bottom right, #007BFF, #FF9900);
+            position: relative;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #fff;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        .facebook {
+            background-color: #1877f2;
+        }
+
+        .instagram {
+            background-color: #E4405F;
+        }
+
+        .amazon {
+            background-color: #FF9900;
+        }
+
+        .button img {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 50%;
+        }
+
+        .button-text {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 15px;
+            right: 42.5%;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .footer:hover {
+            text-decoration: underline;
+            transform: scale(1.2);
+        }
+
+        /* Styling for "Static Hub" text */
+        .link-hub {
+            font-size: 72px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><div class="link-hub">Static Hub</div></h1>
+        <h2>Choose an Option</h2>
+        <div>
+            <a href="facebook/index.html" class="button facebook">
+                <img src="logos/facebook.png" alt="Facebook Logo">
+                <span class="button-text">Facebook</span>
+            </a>
+            <a href="instagram/index.html" class="button instagram">
+                <img src="logos/instagram.png" alt="Instagram Logo">
+                <span class="button-text">Instagram</span>
+            </a>
+            <a href="amazon/index.html" class="button amazon">
+                <img src="logos/amazon.png" alt="Amazon Logo">
+                <span class="button-text">Amazon</span>
+            </a>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <a href="https://www.linkedin.com/in/muskan-thakur-19a9b8226" style="color:white;text-decoration: none;">Made by Muskan Thakur</a>
+    </div>
+</body>
+</html>
